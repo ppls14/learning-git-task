@@ -4,8 +4,12 @@ shop_dict = {
 }
 name = "Lista zakupów"
 print(name)
+n = 0
 
 for shop, article in shop_dict.items():
   shop = shop.title()
   capital_letter = [x.title() for x in article]
   print(f"Idę do {shop}, kupuję tu następujące rzeczy:\n\n{capital_letter}\n")
+  n = n + len(article)
+  
+print(f"W sumie kupuję {n} produktów.\n")
