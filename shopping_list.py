@@ -6,4 +6,6 @@ name = "Lista zakupów"
 print(name)
 
 for shop, article in shop_dict.items():
-  print(f"Idę do {shop}, kupuję tu następujące rzeczy:\n\n{article}\n")
+  shop = shop.title()
+  capital_letter = [x.title() for x in article]
+  print(f"Idę do {shop}, kupuję tu następujące rzeczy:\n\n{capital_letter}\n")
