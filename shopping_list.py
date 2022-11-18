@@ -1,6 +1,7 @@
 shop_dict = {
     'piekarnia' : ['chleb', 'bułka', 'pączek'],
-    'warzywniak' : ['marchew', 'seler', 'rukola']
+    'warzywniak' : ['marchew', 'seler', 'rukola'],
+    'drogeria' : ['szampon', 'żel do mycia', 'krem nawilżający', 'dezodorant']
 }
 name = "Lista zakupów"
 print(name)
