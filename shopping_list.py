@@ -8,6 +8,7 @@ print(name)
 n = 0
 
 for shop, article in shop_dict.items():
+  article.sort()
   shop = shop.title()
   capital_letter = [x.title() for x in article]
   print(f"Idę do {shop}, kupuję tu następujące rzeczy:\n\n{capital_letter}\n")
